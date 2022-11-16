@@ -1,0 +1,11 @@
+*{
+    text-decoration: none;
+}
+.contenedor-repuestos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 8px;
+}

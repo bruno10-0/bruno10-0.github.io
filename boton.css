@@ -1,0 +1,167 @@
+.a12{
+    margin: 5px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.btn-neon{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    margin: 2px;
+}
+.btn-neon:hover{
+    background-color: rgb(122, 70, 170);
+    box-shadow: 0 0 10px rgb(122, 70, 170), 0 0 40px rgb(122, 70, 170),0 0 80px rgb(122, 70, 170);
+    transition-delay: 0.5s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,rgb(122, 70, 170));
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgb(122, 70, 170));
+}
+.btn-neon:hover #span2{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,rgb(122, 70, 170));
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,rgb(122, 70, 170));
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+.a12{
+    margin: 5px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.btn-neon-RED{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    margin: 2px;
+}
+.btn-neon-RED:hover{
+    background-color:var(--color-detalles2);
+    box-shadow: 0 0 10px var(--color-detalles2), 0 0 40px var(--color-detalles2),0 0 80px var(--color-detalles2);
+    transition-delay: 0.5s;
+}
+.btn-neon-RED span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,rgb(153, 45, 45));
+}
+.btn-neon-RED:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgb(153, 45, 45));
+}
+.btn-neon-RED:hover #span2{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,rgb(153, 45, 45));
+}
+.btn-neon-RED:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,rgb(153, 45, 45));
+}
+.btn-neon-RED:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}

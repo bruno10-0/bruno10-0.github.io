@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: .5s;
+    font-family: sans-serif;
+    /*NAV BAR*/
+}
+p:hover{
+    visibility: hidden;
+    transition: 0.5s;
+}
+nav{
+    background-color: var(--color-detalles);
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+  height: 50px;
+  width: 100px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px  ;
+}
+nav ul li a{
+    color: var(--color-letras);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active,li a:hover{
+    background: var(--color-detalles2);
+}
+.checkbtn{
+    font-size: 30px;
+    color: var(--color-detalles2);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/*CUERPO*/
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.banner video{ 
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.banner .contenido{
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.banner .contenido h1{
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    color :#ffff;
+}
+p{
+    color: var(--color-detalles);
+}
+h1{
+    font-size: 1.5em;
+    color :var(--color-letras);
+}

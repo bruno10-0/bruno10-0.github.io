@@ -1,0 +1,45 @@
+@media(max-width:952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media(max-width:858px){
+    h1{
+        font-size: 0;
+    }
+    figure.b1{
+        width: 0%;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        width: 100%;
+        height: 100vh;
+        background-color:var(--color-detalles);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: var(--color-detalles2);
+    } 
+    #check:checked ~ ul{
+        position:absolute;
+        visibility: hidden;
+        left: 0;
+    }
+}
